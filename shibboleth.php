@@ -506,7 +506,7 @@ function shibboleth_authenticate( $user, $username, $password ) {
  * Add a filter for allowed_redirect_hosts so that redirects work on multisite.
  *
  * @since 2.5.3
- * @param array $hosts An array of allowed host names.
+ * @param array  $hosts An array of allowed host names.
  * @param string $host The host name of the redirect destination; empty string if not set.
  * @return array
  */
