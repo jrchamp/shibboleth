@@ -32,4 +32,4 @@ jobs:
     - name: Run plugin check
       uses: wordpress/plugin-check-action@copilot/fix-hidden-files-check-error
       with:
-        exclude-files: '.eslintrc'
+        exclude-files: '.eslintrc,.github'
